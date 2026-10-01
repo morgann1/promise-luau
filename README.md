@@ -1,8 +1,17 @@
+<h1 align="center">
+  🤝
+  <br>
+  Roblox Lua Promise
+</h1>
+
 <div align="center">
-	<h1>Roblox Lua Promise</h1>
-	<p>An implementation of <code>Promise</code> similar to Promise/A+.</p>
-	<a href="https://morgann1.github.io/promise-luau/"><strong>View docs</strong></a>
+
+  [![Docs](.github/assets/link-docs.svg)](https://morgann1.github.io/promise-luau/)
+  [![Changelog](.github/assets/link-changelog.svg)](https://morgann1.github.io/promise-luau/changelog)
 </div>
+
+<p>An implementation of <code>Promise</code> similar to Promise/A+.</p>
+
 <!--moonwave-hide-before-this-line-->
 
 
