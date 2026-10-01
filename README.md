@@ -8,6 +8,7 @@
 
   [![Docs](.github/assets/link-docs.svg)](https://morgann1.github.io/promise-luau/)
   [![Changelog](.github/assets/link-changelog.svg)](https://morgann1.github.io/promise-luau/changelog)
+  [![Get it on Creator Store](.github/assets/link-creator-store-middle.svg)](https://create.roblox.com/store/asset/127359708316094)
   [![Wally](.github/assets/link-wally.svg)](https://wally.run/package/morgann1/promise-luau)
   [![GitHub Releases](.github/assets/link-github-releases.svg)](https://github.com/morgann1/promise-luau/releases)
 </div>
