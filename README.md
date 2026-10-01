@@ -8,7 +8,6 @@
 
   [![Docs](.github/assets/link-docs.svg)](https://morgann1.github.io/promise-luau/)
   [![Changelog](.github/assets/link-changelog.svg)](https://morgann1.github.io/promise-luau/changelog)
-  [![Get it on Creator Store](.github/assets/link-creator-store-middle.svg)](https://create.roblox.com/store/asset/127359708316094)
   [![Wally](.github/assets/link-wally.svg)](https://wally.run/package/morgann1/promise-luau)
   [![GitHub Releases](.github/assets/link-github-releases.svg)](https://github.com/morgann1/promise-luau/releases)
 </div>
@@ -65,6 +64,6 @@ lute scripts/install.luau
 | `lute scripts/test.luau` | Runs the Jest specs in Roblox Studio through run-in-roblox. Studio must be installed and signed in. |
 | `lute scripts/analyze.luau` | Type-checks `src` and `scripts` with luau-lsp. |
 | `lute scripts/lint.luau` | Runs Selene and StyLua. |
-| `lute scripts/release.luau <tag>` | Builds `Promise.rbxm`, creates the GitHub release, and publishes the model to the Creator Store. Pushing a `v*` tag runs it in CI. |
+| `lute scripts/release.luau <tag>` | Creates the GitHub release with that version's changelog section as notes. Pushing a `v*` tag runs it in CI. |
 
 Specs live next to the code as `*.spec.luau`.
