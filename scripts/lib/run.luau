@@ -1,0 +1,31 @@
+--!strict
+
+local process = require("@lute/process")
+
+type Options = {
+	cwd: string?,
+	env: { [string]: string }?,
+	stdio: any,
+}
+
+local function run(program: string, params: { string }, options: Options?): string
+	local command = `{program} {table.concat(params, " ")}`
+
+	print(`> {command}`)
+
+	local result = process.system(command, {
+		shell = true,
+		stdio = if options and options.stdio then options.stdio else "inherit",
+		cwd = if options then options.cwd else nil,
+		env = if options then options.env else nil,
+	})
+
+	if result.ok then
+		local trimmed = result.stdout:gsub("^\n", ""):gsub("\n$", "")
+		return trimmed
+	else
+		error(result.stderr, 2)
+	end
+end
+
+return run

@@ -1,6 +1,8 @@
 {
-	"name": "Promise",
-	"tree": {
-		"$path": "lib"
-	}
+  "$schema": "https://morgann1.github.io/better-rojo-schema/schema.json",
+
+  "name": "Promise",
+  "tree": {
+    "$path": "src"
+  }
 }

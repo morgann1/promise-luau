@@ -1,10 +1,22 @@
 [package]
-name = "evaera/promise"
+name = "morgann1/promise-luau"
 description = "Promise implementation for Roblox"
 version = "4.0.0"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-include = ["lib", "default.project.json", "LICENSE"]
+# Wally also drops dotfiles, wally.lock, and everything in .gitignore.
+exclude = [
+	"**/*.spec.luau",
+	"docs",
+	"scripts",
+	"moonwave.toml",
+	"project.luau",
+	"rokit.toml",
+	"selene.toml",
+	"tests.project.json",
+]
 
-[dependencies]
+[dev-dependencies]
+Jest = "roblox/jest@3.20.1"
+JestGlobals = "roblox/jest-globals@3.20.1"

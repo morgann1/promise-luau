@@ -1,5 +1,6 @@
-/luacov.*.out
-node_modules/
-.vscode
-build
-roblox.toml
+# Wally reads these as globs when packaging, so avoid gitignore-only syntax like a leading slash.
+DevPackages
+sourcemap.json
+globalTypes.d.luau
+tests.rbxl
+tests.rbxl.lock

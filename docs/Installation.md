@@ -37,9 +37,13 @@ sidebar_position: 2
 1. Add the Promise repository as a git submodule (ideally within a folder called `submodules`) (tutorial [here](https://gist.github.com/gitaarik/8735255))
 2. Update your [Rojo configuration](https://rojo.space/docs/6.x/project-format/) to point to the appropriate path and sync the file in.
 
-### Method 4 - Package Manager
+### Method 4 - Wally
 
-Using a package manager? The repository has a [`rotriever.toml`](https://github.com/evaera/roblox-lua-promise/blob/master/rotriever.toml).
+Add Promise to the `[dependencies]` section of your `wally.toml`, then run `wally install`:
+
+```toml
+Promise = "evaera/promise@4.0.0"
+```
 
 
 ## Next
