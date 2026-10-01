@@ -1,5 +1,6 @@
 [package]
 name = "morgann1/promise-luau"
+authors = ["morgann1", "evaera (Eryn L. K)"]
 description = "Promise implementation for Roblox"
 version = "4.0.0"
 license = "MIT"
