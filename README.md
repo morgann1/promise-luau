@@ -8,9 +8,11 @@
 
   [![Docs](.github/assets/link-docs.svg)](https://morgann1.github.io/promise-luau/)
   [![Changelog](.github/assets/link-changelog.svg)](https://morgann1.github.io/promise-luau/changelog)
+  [![Wally](.github/assets/link-wally.svg)](https://wally.run/package/morgann1/promise-luau)
+  [![GitHub Releases](.github/assets/link-github-releases.svg)](https://github.com/morgann1/promise-luau/releases)
 </div>
 
-<p>An implementation of <code>Promise</code> similar to Promise/A+.</p>
+An implementation of `Promise` similar to Promise/A+.
 
 <!--moonwave-hide-before-this-line-->
 
