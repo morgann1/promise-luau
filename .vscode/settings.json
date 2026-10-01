@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        ".luaurc": "json"
+    },
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    "editor.formatOnSave": true,
+    "luau-lsp.fflags.enableNewSolver": true,
+    "luau-lsp.platform.type": "roblox",
+    "luau-lsp.sourcemap.rojoProjectFile": "tests.project.json"
+}

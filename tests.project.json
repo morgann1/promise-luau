@@ -1,0 +1,29 @@
+{
+  "$schema": "https://morgann1.github.io/better-rojo-schema/schema.json",
+
+  "name": "tests",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "DevPackages": {
+        "$path": "DevPackages"
+      },
+      "Promise": {
+        "$path": "src"
+      },
+      "jest.config": {
+        "$path": "scripts/tasks/jest.config.luau"
+      }
+    },
+
+    "ServerScriptService": {
+      "$properties": {
+        "LoadStringEnabled": true
+      },
+      "RunTests": {
+        "$path": "scripts/tasks/run-tests.luau"
+      }
+    }
+  }
+}
