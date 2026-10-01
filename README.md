@@ -64,5 +64,6 @@ lute scripts/install.luau
 | `lute scripts/test.luau` | Runs the Jest specs in Roblox Studio through run-in-roblox. Studio must be installed and signed in. |
 | `lute scripts/analyze.luau` | Type-checks `src` and `scripts` with luau-lsp. |
 | `lute scripts/lint.luau` | Runs Selene and StyLua. |
+| `lute scripts/release.luau <tag>` | Builds `Promise.rbxm`, creates the GitHub release, and publishes the model to the Creator Store. Pushing a `v*` tag runs it in CI. |
 
 Specs live next to the code as `*.spec.luau`.

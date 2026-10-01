@@ -2,6 +2,7 @@
   "$schema": "https://morgann1.github.io/better-rojo-schema/schema.json",
 
   "name": "Promise",
+  "globIgnorePaths": ["**/*.spec.luau"],
   "tree": {
     "$path": "src"
   }
