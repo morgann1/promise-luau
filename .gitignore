@@ -3,4 +3,4 @@ DevPackages
 sourcemap.json
 globalTypes.d.luau
 tests.rbxl
-tests.rbxl.lock
+tests.rbxl.lockbuild

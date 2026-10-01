@@ -144,7 +144,7 @@ end)
 
 `Promise.all` accepts an array of Promise objects, and returns a new Promise. The new Promise will *resolve* with an array of resolved values in the same places as the Promises were in the array. The new Promise will *reject* if *any* of the Promises that were passed in rejects.
 
-[`Promise.race`](https://eryn.io/roblox-lua-promise/lib/#race) is similar to `Promise.all`, except it will resolve or reject as soon as one of the Promises resolves or rejects.
+[`Promise.race`](/api/Promise#race) is similar to `Promise.all`, except it will resolve or reject as soon as one of the Promises resolves or rejects.
 
 We can call functions that return Promises from inside a Promise and safely yield for their result by using the `await` method of Promises. This is akin to the `await` keyword in languages like JavaScript. Sometimes it might be easier to just directly resolve with a Promise though, in which case that Promise is chained onto and the outer Promise won't resolve until the inner one does.
 
@@ -253,4 +253,4 @@ Another point that's important to drive home is that you *can* do all of these t
 
 ## Next steps
 
-Now that you are hopefully convinced of the benefits of using Promises in your code, move on to the [Guide](/docs/Tour) for a quick introduction, or dive in to the [API reference](/api/Promise)
+Now that you are hopefully convinced of the benefits of using Promises in your code, move on to the [Guide](tour.md) for a quick introduction, or dive in to the [API reference](/api/Promise)

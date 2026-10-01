@@ -1,9 +1,13 @@
+gitRepoUrl = "https://github.com/morgann1/promise-luau"
+gitSourceBranch = "main"
+
 classOrder = [
 	"Promise"
 ]
 
 [docusaurus]
-url = "https://eryn.io"
+url = "https://morgann1.github.io"
+baseUrl = "/promise-luau/"
 tagline = "Promise implementation for Roblox"
 
 [[navbar.items]]

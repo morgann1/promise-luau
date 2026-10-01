@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>Roblox Lua Promise</h1>
 	<p>An implementation of <code>Promise</code> similar to Promise/A+.</p>
-	<a href="https://eryn.io/roblox-lua-promise/"><strong>View docs</strong></a>
+	<a href="https://morgann1.github.io/promise-luau/"><strong>View docs</strong></a>
 </div>
 <!--moonwave-hide-before-this-line-->
 
