@@ -4,7 +4,7 @@ registry = "test"
 
 [[package]]
 name = "morgann1/promise-luau"
-version = "4.0.0"
+version = "4.1.0"
 dependencies = [["Jest", "roblox/jest@3.20.1"], ["JestGlobals", "roblox/jest-globals@3.20.1"]]
 
 [[package]]

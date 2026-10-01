@@ -42,7 +42,7 @@ sidebar_position: 2
 Add Promise to the `[dependencies]` section of your `wally.toml`, then run `wally install`:
 
 ```toml
-Promise = "morgann1/promise-luau@4.0.0"
+Promise = "morgann1/promise-luau@4.1.0"
 ```
 
 

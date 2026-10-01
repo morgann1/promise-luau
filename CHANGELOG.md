@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## [4.1.0] - 2026-10-01
 ### Added
 - The library is written in strict Luau and exports generic types: `Promise<T...>`, `AnyPromise`, `Status`, `Error`, `ErrorKind`, `Executor<T...>`, and `SignalLike<T...>`. See the readme for how far the types follow a chain.
 
